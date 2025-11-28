@@ -1,0 +1,34 @@
+
+imgdashboard="//img[@alt='Active eCommerce CMS']"
+Img_avarta="//span[@class='avatar avatar-sm mr-md-2']//img"
+Notification="//i[@class='las la-bell fs-24']"
+IMg_language="//span[@class='btn btn-icon']//img"
+Seach_menu="//input[@id='menu-search']"
+Dashboard="//span[normalize-space()='Dashboard']"
+POSSystem="//span[normalize-space()='POS System']"
+Products="//span[normalize-space()='Products']"
+Sales="//span[normalize-space()='Sales']"
+//Go to dashboard
+POS="//a[@title='POS']"
+ClearCache="//a[@class='btn btn-soft-danger btn-sm d-flex align-items-center']"
+Angle_left="//i[@class='las la-angle-left']"
+Angle_right="//i[@class='las la-angle-right']"
+Img_Cosy="//img[@alt='Bánh Cosy']"
+Img_gioqua="//img[@alt='Giỏ quà Tết TOiOy']"
+Img_test1="//img[@alt='test1']"
+Total_Customer="//div[@class='bg-grad-2 text-white rounded-lg mb-4 overflow-hidden']//div[@class='px-3 pt-3']"
+Total_order="//div[@class='bg-grad-3 text-white rounded-lg mb-4 overflow-hidden']//div[@class='px-3 pt-3']"
+GraphProductSale="//canvas[@id='graph-1']"
+GraphProductstock="//canvas[@id='graph-2']"
+GraphProduct="//canvas[@id='pie-1']"
+GraphSellers="//canvas[@id='pie-1']"
+
+
+
+
+
+
+
+
+
+
