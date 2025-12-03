@@ -46,8 +46,8 @@ class HeaderComponent(BasePage):
             menu_locator = self.page.locator("//nav[@class='pc-sidebar light-sidebar']")
             menu_locator.evaluate("el => el.scrollTop = el.scrollHeight") 
             self._click(item)
+            time.sleep(3)
             self._take_screenshot(f"menu_item_{index}")
-            time.sleep(5)
 
     def logout(self):
         self._click(self.profile_icon)

@@ -31,6 +31,16 @@ class LoginPage(BasePage):
 
         self._take_screenshot("affter_login")
 
+    def login_with_invalidUser(self):
+        creds=self.load_credentials()
+
+        self._fill(self.username_input,creds["username"])
+        self._fill(self.password_input,creds["password"])
+        self._click(self.login_button)
+
+        self._take_screenshot("error_message")
+        #self._assert_text_visible()
+
     def run_header_flow(self):
         self.header.click_all_header_items()
     
